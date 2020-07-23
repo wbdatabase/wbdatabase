@@ -4,8 +4,50 @@ title: TP Database
 ---
 
 <br>
-
-<center><h2>Map of cores</h2></center>
   
 <iframe src="https://www.google.com/maps/d/embed?mid=1kELPF5aW_4exhsnzq2NSIj60uuPa7Jge" width=102% height="530"></iframe>
 </div>
+
+<br>
+<center><h3>Table 1</h3></center>
+
+<script src="/js/sorttable.js"></script>
+
+<style type="text/css">
+	table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \21D5" 
+}
+	table.sortable {
+		font-size: 14px;
+		padding: 2.5px;
+		border: 1px solid #878787; 
+		border-collapse: collapse;
+		font-family: Arial, Helvetica, sans-serif;
+	    /*	background: #f2fff3;  */
+	} 
+	.sortable td {
+		padding: 2.5px;
+		border: 1px solid #878787;
+	}
+	.sortable th {
+		padding: 2px;
+		border: 1px solid #878787; 
+		background-color: #474747; 
+		color: #FFF;
+		font-weight: bold;
+		cursor: pointer;
+	}
+table.sortable tbody tr:nth-child(2n) td {
+  background: #f2f2f2;
+}
+table.sortable tbody tr:nth-child(2n+1) td {
+  background: #d1d1d1;
+}
+</style>
+<table class="sortable">
+
+<thead><th>Core name</th><th>Location</th><th>Depth</th><th>proxies</th><th>DOI</th><th>Span</th></tr></thead><tbody>
+ <tr><td>100</td><td>20 33</td><td>12323 m</td><td>dwedwe deded</td><td>342342.deded</td><td>20-30 ka</td></tr>
+ <tr><td>8798</td><td>20.2 11.12</td><td>312 m</td><td>rgvf edwe</td><td>24565.sds</td><td>205-340 ka</td></tr>
+  
+</tbody></table>
