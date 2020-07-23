@@ -1,4 +1,4 @@
-body { margin:0 auto; padding:0; width: 910px; background: #949494;}
+body { margin:0 auto; padding:0; width: 920px; background: #949494;}
 
 #style_container {
 width: 100%;
@@ -6,7 +6,7 @@ margin: auto;
 background: #ffffff;
 }
 #style_header {                 /*TOP BAR*/
-height: 82px;
+height: 100px;
 background: #5f70b3;
 }
 #style_content {                /*MAIN TEXT*/
