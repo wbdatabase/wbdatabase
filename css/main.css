@@ -1,4 +1,4 @@
-body { margin:0 auto; padding:0; width: 920px; background: #949494;}
+body { margin:0 auto; padding:0; width: 944px; background: #949494;}
 
 #style_container {
 width: 100%;
@@ -14,11 +14,11 @@ background: #5f70b3;
 background: #ebebeb;
 font-size: 17px;
 padding-left: 40px;
-padding-right: 50px;
+padding-right: 40px;
 }
 #style_title {                  /*TOP BAR TITLE*/
 padding-top: 14px;
-padding-bottom: 14px;
+padding-bottom: 13px;
 padding-left: 80px;
 font-family:Georgia, "Times New Roman", Times, serif;
 font-size: 34px;
